@@ -3,8 +3,12 @@ body {
   margin: 0;
 }
 
-#map,
-body,
-html {
-  height: 100%;
+#map {
+  height: 100%; /* Sets the map to a fixed height */
+  width: 100%;   /* Ensures the map takes up the full width of the page */
+}
+
+html,
+body {
+  height: 100%; /* Keeps body and html at full height for consistency */
 }
